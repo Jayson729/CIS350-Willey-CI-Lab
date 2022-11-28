@@ -24,3 +24,13 @@ def test_calc_multiply():
 def test_calc_divide():
     output = divide_numbers(10, 2)
     assert output == 5
+
+
+def test_calc_exponent():
+    output = exponentiate_numbers(5, 3)
+    assert output == 125
+
+
+def test_calc_mod():
+    output = mod_numbers(15, 4)
+    assert output == 3
